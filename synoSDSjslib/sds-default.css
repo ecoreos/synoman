@@ -496,7 +496,7 @@ div {
 }
 .sds-window-v5 .x-window-tl {
     background: #FFFFFF;
-    border-top: 3px solid #0086E5;
+    border-top: 1px solid #ccc;
     padding-left: 12px;
     padding-bottom: 0
 }
@@ -516,9 +516,9 @@ div {
 .sds-window-v5 .x-window-header-text {
     line-height: 24px;
     font-size: 13px;
-    font-weight: bold;
+    font-weight: 100;
     text-align: center;
-    color: #0086E5
+    color: #94979a
 }
 .sds-window-v5 .x-tool {
     width: 24px;
@@ -3972,9 +3972,6 @@ body,
 .sds-window-v5.deactive-win .x-window-tl {
     background: #ffffff);
     border-top: 1px solid #ccc
-}
-.sds-window-v5 .x-window-header-text {
-    color: #0086E5
 }
 .sds-window-v5 .x-window-body {
     background-color: #fff
