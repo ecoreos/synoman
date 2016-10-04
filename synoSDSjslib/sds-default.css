@@ -1131,8 +1131,7 @@ div {
     z-index: 5;
     position: relative;
     height: 39px;
-    background: repeat-x scroll 0 0 transparent;
-    background-image: url("images/default//1x//taskbar/taskbar_bg.png?v=05580520161737191")
+    background: transparent;
 }
 #sds-taskbar .x-btn-tl,
 #sds-taskbar .x-btn-tc,
@@ -1150,7 +1149,7 @@ div {
 (-o-min-device-pixel-ratio: 3 / 2),
 (min-resolution: 144dpi) {
     .synohdpack #sds-taskbar {
-        background-image: url("images/default//2x//taskbar/taskbar_bg.png?v=05580520161737191");
+        background: transparent;
         background-size: 4px 39px
     }
 }
@@ -1158,7 +1157,7 @@ div {
 (-o-min-device-pixel-ratio: 3 / 2),
 (min-resolution: 144dpi) {
     .synohdpackdebug #sds-taskbar {
-        background-image: url("images/default//2x//taskbar/taskbar_bg.png?v=05580520161737191");
+        background: transparent;
         background-size: 4px 39px;
         outline: 1px green dashed
     }
@@ -2763,10 +2762,7 @@ body,
     width: auto !important
 }
 .sds-window-v5 .sds-wizard-banner-wrap {
-    background-image: url("images/default//1x//wizard_bkg_h.png?v=05580520161737191");
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-color: #008DEF;
+    background: #fff;
     height: 112px !important;
     display: table
 }
@@ -2774,7 +2770,7 @@ body,
 (-o-min-device-pixel-ratio: 3 / 2),
 (min-resolution: 144dpi) {
     .synohdpack .sds-window-v5 .sds-wizard-banner-wrap {
-        background-image: url("images/default//2x//wizard_bkg_h.png?v=05580520161737191");
+        background: #fff;
         background-size: 414px 112px
     }
 }
@@ -2782,7 +2778,7 @@ body,
 (-o-min-device-pixel-ratio: 3 / 2),
 (min-resolution: 144dpi) {
     .synohdpackdebug .sds-window-v5 .sds-wizard-banner-wrap {
-        background-image: url("images/default//2x//wizard_bkg_h.png?v=05580520161737191");
+        background: #fff;
         background-size: 414px 112px;
         outline: 1px green dashed
     }
@@ -2870,18 +2866,18 @@ body,
     margin-left: 140px
 }
 .sds-window-v5 .sds-wizard-banner .wizard-headline {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 24px;
-    font-weight: bold;
-    color: #FFFFFF;
+    font-weight: 300;
+    color: #505f72;
     overflow: hidden;
     padding-top: 0px;
     max-height: 48px
 }
 .sds-window-v5 .sds-wizard-banner .wizard-description {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 18px;
-    color: #FFFFFF;
+    color: #505f72;
     overflow: hidden;
     max-height: 54px
 }
