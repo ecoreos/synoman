@@ -1656,7 +1656,7 @@ input[type=textarea]:-ms-input-placeholder {
 .syno-ux-button {
     height: 26px;
     line-height: 26px;
-    border-radius: 3px;
+    border-radius: 0px;
     display: inline-block;
     text-align: center
 }
